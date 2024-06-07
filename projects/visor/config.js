@@ -128,6 +128,10 @@ const HYPE_REGISTRY = {
   mode: [
     ["0x683292172E2175bd08e3927a5e72FC301b161300", 696737], // KIM
   ],
+  rsk: [
+    ["0x683292172E2175bd08e3927a5e72FC301b161300", 6414342], // Uniswap
+    ["0xC27DDd78FC49875Fe6F844B72bbf31DFBB099881", 6414350], // Sushiswap
+  ],
 };
 
 Object.keys(HYPE_REGISTRY).forEach(chain => {
